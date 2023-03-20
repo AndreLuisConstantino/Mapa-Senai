@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ul, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+path {
+    fill: #ECCEA7;
+    stroke: #fff;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+path:hover {
+    fill: #FA9E27;
+    transition: .3s;
+}
+
+.map-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+    padding-left: 13vw;
+    gap: 10vw;
+    align-items: center;
+}
+
+/*
+    fill = cor
+    stroke = cor da borda
+    stroke-width = largura da borda
+*/
