@@ -36,3 +36,22 @@ path:hover {
     stroke = cor da borda
     stroke-width = largura da borda
 */
+
+
+@media(max-width: 425px){
+    body {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+    }
+
+    .map-container{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .card-container {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
